@@ -1,3 +1,7 @@
+/*Rick Yost
+24 feb 2018
+The Internet CSS Assignment*/
+
  /*  CSS Reset*/
    * {
       vertical-align: baseline;
@@ -48,7 +52,6 @@
    }
    #leftbar{
       width: 200px;
-/*      background: linear-gradient(#E3E3E3, #FFF);*/
       display: inline-block;
       vertical-align: top;
       text-align: center;
@@ -91,7 +94,6 @@
    }
    #main_content{
       width: 725px;
-/*      background: linear-gradient(#E3E3E3, #FFF);*/
       display: inline-block;
       padding-top: 10px;
    }
