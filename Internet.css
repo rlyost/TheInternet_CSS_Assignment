@@ -43,6 +43,9 @@
       display: block;
       padding: 15px 25px;
    }
+   .innerwrap {
+      background: linear-gradient(#E3E3E3, #FFF, #FFF, #FFF);
+   }
    #leftbar{
       width: 200px;
 /*      background: linear-gradient(#E3E3E3, #FFF);*/
