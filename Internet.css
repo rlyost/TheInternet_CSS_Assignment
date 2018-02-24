@@ -45,12 +45,12 @@
    }
    #leftbar{
       width: 200px;
-      background-color: white;
+/*      background: linear-gradient(#E3E3E3, #FFF);*/
       display: inline-block;
       vertical-align: top;
       text-align: center;
       margin-right: 40px;
-      margin-top: 15px;
+      margin-top: 10px;
    }
    .lefttext1 {
       font-weight: bold;
@@ -73,6 +73,7 @@
       text-align: center;
       margin-top: 30px;
       padding-top: 1px;
+      box-shadow: 2px 2px 5px grey;
    }
    .adwords {
       font-size: 18pt;
@@ -87,21 +88,58 @@
    }
    #main_content{
       width: 725px;
-      background-color: red;
+/*      background: linear-gradient(#E3E3E3, #FFF);*/
       display: inline-block;
+      padding-top: 10px;
+   }
+   .mainhead {
+      width: 725px;
+      display: inline-block;
+   }
+   .mainhead_home {
+      width: 20px;
+      display: inline-block;
+   }
+   .mainhead_left {
+      width: 70px;
+      margin-right: 440px;
+      display: inline-block;
+      vertical-align: top;
+   }
+   .contact {
+      width: 165px;
+      display: inline-block;
+      text-align: center;
+   }
+   .phone {
+      width: 40px;
+      display: inline-block;
+   }
+   .hours {
+      width: 150px;
+      font-size: 7pt;
+   }
+   .phonenum {
+      width: 150px;
+      font-size: 18pt;
+      font-weight: bold;
+      color: #00C0DD;
    }
    .subcontents{
       width: 725px;
-      background-color: white;
+      background-color: transparent;
       margin-bottom: 10px;
+      padding-top: 10px;
       list-style-position: outside;
       font-size: 10pt;
    }
    .subcontents ul li {
       margin-left: 40px;
+      margin-top: 5px;
    }
    .subcontents ol li {
       margin-left: 40px;
+      margin-bottom: 5px;
    }
    .chaptertitle {
       font-size: 14pt;
@@ -126,11 +164,17 @@
    .htmlphoto {
       width: 110px;
       margin: 10px 0px 0px 10px;
-      vertical-align: center;
+      display: inline-block;
    }
    .endtext {
-      margin-left: 10px;
-      display: inline;
+      width: 560px;
+      margin-left: 20px;
+      margin-top: 10px;
+      display: inline-block;
+      vertical-align: top;
+   }
+   .endtext p {
+      margin-bottom: 10px;
    }
    .textblue {
       color: #00679B;
@@ -144,6 +188,7 @@
    button {
       display: inline-block;
       margin: 0 auto 10px auto;
+      width: 190px;
       border-radius: 8px;
       color: white;
       padding: 6px 20px;
@@ -160,8 +205,9 @@
    }
    .buttonc {
       background: linear-gradient(#69D1DE, #00C2DC);
+      width: 170px;
    }
    .line {
-      margin: 20px auto;
+      margin: 10px auto;
       border-top: 1px solid black;
    }
