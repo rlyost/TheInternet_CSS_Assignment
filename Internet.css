@@ -2,7 +2,7 @@
    * {
       vertical-align: baseline;
       font-weight: inherit;
-      font-family: inherit;
+      font-family: Arial, Helvetica, sans-serif;
       font-style: inherit;
       font-size: 100%;
       border: 0 none;
@@ -12,41 +12,151 @@
    }
    
    #wrapper{
-      width: 950px;
-      background-color: silver;
+      width: 970px;
+      background-color: white;
       margin: 0px auto;
       padding: 20px;
    }
    #header{
-      height: 150px;
-      background-color: green;
-      margin-bottom: 20px;
+      height: 130px;
+      background-color: white;
+      margin-bottom: 10px;
+   }
+   .globe {
+      width: 100px;
+      margin-top: 1px;
+      margin-left: 10px;
+      position: absolute;
+   }
+   .pagetitle {
+      display: inline-block;
+      font-size: 30pt;
+      vertical-align: top;
+      margin-top: 30px;
+      margin-left: 115px;
+   }
+   .pagetitle2 {
+      font-size: 22pt;
+      color: white;
+      vertical-align: top;
+      background: linear-gradient(#00689b, #4785AA, #00689b);
+      display: block;
+      padding: 15px 25px;
    }
    #leftbar{
-      height: 300px;
       width: 200px;
-      background-color: blue;
+      background-color: white;
       display: inline-block;
       vertical-align: top;
-      margin-right: 20px;
+      text-align: center;
+      margin-right: 40px;
+      margin-top: 15px;
+   }
+   .lefttext1 {
+      font-weight: bold;
+      margin-bottom: 10px;
+      text-align: left;
+   }
+   .lefttext2 {
+      font-size: 10pt;
+      font-weight: bold;
+      margin-bottom: 10px;
+      text-align: left;
+   }
+   .adcopy {
+      background-color: transparent;
+      height: 300px;
+      width: 200px;
+      vertical-align: center;
+      background-image: url('ad_background.png');
+      background-size: contain;
+      text-align: center;
+      margin-top: 30px;
+      padding-top: 1px;
+   }
+   .adwords {
+      font-size: 18pt;
+      color: white;
+      margin: 20px auto 8px auto;
+      text-align: center;
+   }
+   .ninja {
+      width: 80px;
+      vertical-align: center;
+      margin: 0 auto 15px auto;
    }
    #main_content{
-      height: 400px;
-      width: 700px;
+      width: 725px;
       background-color: red;
       display: inline-block;
-      padding: 10px;
    }
    .subcontents{
-      height: 200px;
-      width: 210px;
+      width: 725px;
       background-color: yellow;
-      margin-right: 9px;
-      display: inline-block;
+      margin-bottom: 10px;
+      list-style-position: outside;
+      font-size: 10pt;
    }
-   #advertisement{
+   .subcontents ul li {
+      margin-left: 40px;
+   }
+   .subcontents ol li {
+      margin-left: 40px;
+   }
+   .chaptertitle {
+      font-size: 14pt;
+      font-weight: bold;
+   }
+   .csphoto {
+      width: 250px;
+      vertical-align: center;
+      display: block;
+      margin: 15px auto 15px auto;
+   }
+   .bluebox{
       height: 120px;
-      width: 660px;
-      background-color: purple;
+      width: 725px;
+      border-top: 5px solid #0089db;
+      border-right: 5px solid #0089db;
+      border-left: 5px solid #0089db;
+      background-color: white;
       margin-top: 15px;
+   }
+   .htmlphoto {
+      width: 120px;
+      vertical-align: center;
+      margin: 0 auto 15px auto;
+   }
+   .textblue {
+      color: #00679B;
+   }
+   .textsky {
+      color: #0098AD;  
+   }
+   .textred {
+      color: red;  
+   }
+   button {
+      display: inline-block;
+      margin: 0 auto 10px auto;
+      border-radius: 8px;
+      color: white;
+      padding: 6px 20px;
+      font-style: normal;
+      font-size: 11pt;
+      box-shadow: 3px 3px 5px black;
+      vertical-align: center;
+   }
+   .buttona {
+      background: linear-gradient(#579AC1, #00679B);
+   }
+   .buttonb {
+      background: linear-gradient(#F1AB61, #F96F0B);
+   }
+   .buttonc {
+      background: linear-gradient(#69D1DE, #00C2DC);
+   }
+   .line {
+      margin: 20px auto;
+      border-top: 1px solid black;
    }

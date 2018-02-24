@@ -10,14 +10,48 @@ The Internet CSS Assignment -->
    </head>
    <body>
        <div id="wrapper">
-         <div id="header"></div>
-         <div id="leftbar"></div>
-         <div id="main_content">
-            <div class="subcontents"></div>
-            <div class="subcontents"></div>
-            <div class="subcontents"></div>
-            <div id="advertisement"></div>
+         <div id="header">
+            <img src="globe.png" class="globe" alt="Global Internet">
+            <p class="pagetitle">The Inter<span class="textblue">net</span></p>
+            <p class="pagetitle2">The World Wide Web</p>
          </div>
-      </div><!-- end of wrapper -->
+         <div id="leftbar">
+            <p class="lefttext1">So, what's an <span class="textred">Internet?</span></p>
+            <p class="lefttext2">An <span class="textblue">Inter</span>connected <span class="textblue">Net</span>work of computers all around the world!</p>
+            <button class="buttona">WATCH A VIDEO</button>
+            <button class="buttonb">MORE RESOURCES</button>
+            <p class="line"></p>
+            <div class="adcopy">
+               <p class="adwords">Reinvent your career in just 14 weeks</p>
+               <img src="ninja.png" class="ninja" alt="Ninja">
+               <button class="buttonc">Learn More >>></button>
+            </div>
+         </div>
+         <div id="main_content">
+            <div class="mainhead"></div>
+            <div class="subcontents line">
+               <p class="chaptertitle textblue">Clients and Servers</p>
+               <p>Computers connected to the <span class="textsky">Web</span> are called clients and servers.</p>
+               <ul>
+                  <li><span class="textsky">Clients</span> are the typical Web user's Internet-connected devices (for example, your computer connected to your Wi-Fi, or your phone connected to your mobile network) and <span class="textsky">Web-accessing software</span> available on those devices (usually a web browser like Firefox or Chrome).</li>
+                  <li><span class="textsky">Servers</span> are computers that store <span class="textsky">webpages</span>, <span class="textsky">sites</span>, or <span class="textsky">apps</span>. When a client device wants to access a webpage, a copy of the webpage is downloaded from the server onto the client machine to be displayed in the user's web browser.</li>
+               </ul>
+               <img src="client_server.jpg" alt="Client Server Communication" class="csphoto">
+               <p class="chaptertitle textblue">So What Actually Happens?</p>
+               <ol>
+                  <li>The browser goes to the <span class="textsky">DNS server</span> and finds the real address of the <span class="textsky">server</span> that the website lives on.</li>
+                  <li>The browser sends an <span class="textsky">HTTP request</span> message to the server asking it to send a copy of the website to the client.</li>
+                  <li>If the server approves the client's request, the server sends the client a <span class="textsky">"200 OK" message</span>, which means "Permission granted! Here you go!", and then starts sending the website's files to the browser as a series of small chucnks.</li>
+                  <li>The browser assembles the small chunks into a complete website and displays it to you!</li>
+               </ol>
+            </div>
+            <div class="bluebox">
+               <img src="html.png" alt="Front-End Big-3" class="htmlphoto">
+               <p class="chaptertitle textblue">The Big 3 - HTML, CSS, JavaScript</p>
+               <p>While the server can process information in many different languages, the files that they serve to the client are always going to be some combination of HTML, CSS, and JavaScript!</p>
+               <p>Learn more about the Big 3 <span class="textsky">here!</span></p>
+            </div>
+         </div>
+      </div>
    </body>
 </html>
